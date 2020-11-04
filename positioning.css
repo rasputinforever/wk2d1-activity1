@@ -1,0 +1,44 @@
+body {
+    width: 50%;
+    padding: 50px;
+    margin-left: 150px;
+}
+h2 {
+    text-align: left;
+}
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+div {
+    font-size: 24px;
+    margin: auto;
+    Text-align: center;
+}
+#fixed {
+    background-color: #eee;
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;  
+    margin: auto;
+}
+#relative {
+    background-color: #eee;
+    width: 100%;
+    height: 200px;
+    position: relative;
+
+
+}
+#absolute {
+    background-color: #999;
+    width: 250px;
+    height: 100px;
+    bottom: 0;
+    right: -50px;
+    position: absolute;
+
+}
